@@ -6,11 +6,7 @@
 
 
 <style>
-#dplayer{
-	max-width: 50%;
-	height: 75%;
-	margin:0 auto;
-}
+
 /*
 html{
 	margin: 0px;
@@ -71,6 +67,8 @@ a{
 	color: white;
 }
 iframe{
+	/*width: 700px;*/
+	/*height: 400px;*/
 	width: 80%;
 	height: 70%;
 	margin-left:  10%;
@@ -86,13 +84,17 @@ iframe{
 		var BVID=["BV1ar4y1M7QR","BV1MW4y1r7mW","BV1kk4y1d7XX","BV1RW4y167Dv","BV1Qe411x7i6","BV1CQ4y1K7tY","BV1k3411u76k","BV1yZ4y1q7YK","BV1C34y1d77P","BV18a4y1a7hx","BV11Y4y167j7","BV1bz4y1r7Ug"];
 
 		var a = Math.floor(Math.random()*10);
-		var a="//player.bilibili.com/player.html?bvid="+BVID[a];
+		var a="https://player.bilibili.com/player.html?bvid="+BVID[a];
 		//return URL[a];
 		//return URL[1]
 		document.getElementById("iframe").innerHTML = "<iframe src ="+a+"></iframe>";
 
 	}
 
+function b() {
+	document.getElementById("iframe").innerHTML = "<iframe src ="+"https://player.bilibili.com/player.html?bvid=BV16V4y1J7XL"+"></iframe>";
+	alert("把页面往上拉看看 (●'◡'●)");
+}
 </script>
 <div id="iframe">
 	
@@ -125,7 +127,16 @@ iframe{
 <p class="Text">Email:1919881399@qq.com</p>
 <p class="Text">QQ:1919881399</p>
 </div>
-<div id="footer">主机提供商:<a href="https://pages.github.com">GitHub Pages</a> | &copy2022 lrc20061205.github.io | By 名字这就是名字</div>
+<div>
+	<h1>关于我为什么用Bilibili的“iframe”而不用H5播放器</h1>
+	<p class="Text"><em style="text-decoration:line-through;">为了尊尊版权(bushi)</em></p>
+	<p class="Text">因为此页面假设在美国（为了白嫖）用H5播放器会很卡</p>
+	<p class="Text">就连背景图也是用海外的图床 (￣▽￣)"</p>
+</div>
+
+	
+
+<div id="footer"><button onclick="b();">恭喜你发现了宝藏</button>主机提供商:<a href="https://pages.github.com">GitHub Pages</a> | &copy2022 lrc20061205.github.io | By 名字这就是名字</div>
 
 </body>
 </html>
