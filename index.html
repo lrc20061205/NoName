@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=50%, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" /> 
 	<script>
 		function YuanShen() {
-			document.getElementById("iframe").innerHTML = "<video src ='https://webstatic.mihoyo.com/upload/op-public/2020/09/27/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4' width='100%' height='auto' controls='controls' autoplay='autoplay'></video><a href=https://ys.mihoyo.com/main/ style='color:blak;padding-left:15%;font-size:20px'>下载原神</a>";
+			document.getElementById("iframe").innerHTML = "<video src ='https://webstatic.mihoyo.com/upload/op-public/2020/09/27/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4' width='100%' height='auto' controls='controls' autoplay='autoplay'></video><a href=https://ys.mihoyo.com/main/ style='padding-left:15%;font-size:20px'>下载原神</a>";
 			//setTimeout(() => window.open("https://ys.mihoyo.com/main/"), 20000);
 		}
 	</script>
@@ -57,7 +57,7 @@
 			letter-spacing: 1px;
 		}
 		a{
-			color: white;
+			color: #19CAAD;
 		}
 
 		iframe{
@@ -70,9 +70,9 @@
 			margin-top: 10%;
 		}
 
-		#fenzu{
+		#main{
 			background-color: rgb(237, 237, 229, 30%);
-			min-height: 120%;/*这里不调到120%的话，部分浏览器显示footer会显示不到底（footer条下方有空白，这里点名手机版edge）*/
+			min-height: 100%;/*这里不调到120%的话，部分浏览器显示footer会显示不到底（footer条下方有空白，这里点名手机版edge）*/
 			margin-left: 10%;
 			margin-right: 10%;
 		}
@@ -80,54 +80,29 @@
 </head>
 <body>
 
-	<div id="fenzu">
+	<div id="main">
 		<p class="time">最后编辑时间：2023-12-2 20:02</p>
 		<div>
 			<h1>Welcome To My Website</h1>
 			<p class="tr">欢迎来到我的Web网站</p>
 			<p class="Text">原神？启动！！原来你也玩原神！！</p>
 			<p class="Text">窝焖藕皮蒸柿苔油食鲤辣</p>
-			<p class="Text">红色是毁灭，蓝色是冷漠，绿色是伪装，紫色是神秘，橙色是愤怒，黄色请发给我</p>
-			<p class="Text">
-
-				受不了了！开导!🥵🥵🥵🥵</br>
-				(sinx)' = cosx </br>
-				(cosx)' = - sinx </br>
-				(secx)'=tanx·secx </br>
-				(cscx)'=-cotx·cscx </br>
-				(arcsinx)'=1/(1-x^2)^1/2 </br>
-				(arccosx)'=-1/(1-x^2)^1/2 </br>
-				......</br>
-				不能导出来，给我积回去🥵🥵🥵🥵</br>
-				1、∫0dx=c</br>
-				2、∫x^udx=(x^u+1)/(u+1)+c</br>
-				3、∫1/xdx=ln|x|+c</br>
-				4、∫a^xdx=(a^x)/lna+c</br>
-				5、∫e^xdx=e^x+c</br>
-				......</br>
-				积不回去了，我要设啦🥵🥵🥵🥵</br>
-				设F (x)=∫f(x)dx ，则F'(x)=f (x)</br>
-				还是导出来了</br>
 			</p>
 		</div>
 		<div>
-			<h1>About</h1>
-			<p class="tr">关于本人</p>
-			<p class="Text">中考落榜上了职教的一个未满18岁的普通群众</p>
-			<p class="Text">一个对学习没兴趣的人</p>
-			<p class="Text">社恐的一位平民</p>
-			<p class="Text">没什么可以介绍的了</p>
+			<h1>关于本人</h1>
+			<p class="tr">∗︎˚(* ˃̤൬˂̤ *)˚∗︎</p>
+			<p class="Text">普通群众（...此处省略一万字...）</p>
 		</div>
 		<div>
 			<h1>本人在互联网上的线索</h1>
-			<p class="tr">真的假的？</p>
+			<p class="tr">٩(๑ᵒ̴̶̷͈᷄ᗨᵒ̴̶̷͈᷅)و</p>
 			<p class="Text">Email:1919881399@qq.com</p>
 			<p class="Text">QQ:1919881399</p>
+			<p class="Text">Steam主页（快来和我玩游戏 ᴖᗜᴖ）:<a href="https://steamcommunity.com/id/Launcher_Genshin/">点我直达</a></p>
 		</div>
-		<div id="iframe">
-			<iframe src =https://player.bilibili.com/player.html?bvid=BV1a7411i797></iframe>
-		</div>
+		<div id="iframe"></br></div><!--br标签用于占位，不然main和footer两个div元素之间会有缝隙-->
 	</div>
-	<div id="footer"><button onclick="YuanShen();">原神？启动！</button>主机提供商:<a href="https://pages.github.com">GitHub Pages</a> | &copy2022 lrc20061205.github.io | By RenCheng | 1920*1080或以上分辨率效果最佳(手机横屏效果最佳)</div>
+	<div id="footer"><button onclick="YuanShen();">原神？启动！</button>主机提供商:<a href="https://pages.github.com">GitHub Pages</a> | &copy2022 lrc20061205.github.io | 1920*1080或以上分辨率效果最佳(手机横屏效果最佳)</div>
 </body>
 </html>
